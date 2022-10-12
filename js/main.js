@@ -80,11 +80,11 @@ console.log(myPow = (Math.pow(3, 5)));
  * Создайте объект с именем strObj.
  * Присвойте ключу str строку текста "Мама мыла раму, рама мыла маму", ключу length установите длину этой строки.
  */
-var str1 = "Мама мыла раму, рама мыла маму";
+var str = "Мама мыла раму, рама мыла маму";
 // Мама мыла раму, рама мыла маму
 var strObj = {
-  str: str1,
-  length: (str1.length),
+  str: str,
+  length: (str.length),
 };
 // strObj
 console.log(strObj);
@@ -94,7 +94,7 @@ console.log(strObj);
  * Проверьте наличие текста 'рама' в поле str объекта strObj (см.п.6),
  * результат сохраните в переменную isRamaPos и выведите ее в консоль.
  */
-var isRamaPos = (str1.indexOf('рама')); 
+var isRamaPos = (str.indexOf('рама')); 
 // isRamaPos
 console.log(isRamaPos);
 /*
@@ -105,7 +105,7 @@ console.log(isRamaPos);
  * Исходная строка: 'Мама мыла раму, рама мыла маму'
  *       Результат: 'Мама моет раму, Рама держит маму'
  */
-var strReplace = str1.replace('мыла раму, рама мыла', 'моет раму, Рама держит');
+var strReplace = str.replace('мыла раму, рама мыла', 'моет раму, Рама держит');
 // strReplace
 console.log(strReplace);
 /*
